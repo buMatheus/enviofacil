@@ -298,7 +298,6 @@ function App() {
             <div className="Botao col-md-12">
               <button className="Button" type="submit" disabled={!isValid}>Enviar</button>
             </div>
-            <button type="button" onClick={e=>console.log(errors)}>Teste</button>
           </Form>
         )}
         />
