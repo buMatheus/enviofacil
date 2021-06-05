@@ -1,38 +1,134 @@
-.App {
+.App{
+  font-family: 'Poppins', sans-serif;
+  background-color: #2a4b9c;
+  color: #ebc006;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#Imagem{
+  align-content: center;
+  max-width: 60%;
+  padding-top: 15px;
+}
+.Formulario{
+  color: #ebc006;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.Titulo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
   text-align: center;
+  color: #ebc006;
+  padding-left: 15px;
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 26px;
+}
+.SubTitulo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+  color: #ebc006;
+  padding-left: 15px;
+}
+.Item{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 70%;
+  min-width: 40%;
+  min-height: 80px;
+  padding-left: 15px;
+}
+.Input{
+  max-width: 85%;
+  min-width: 203px;
+}
+.Terms{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: baseline;
+  min-width: 75%;
+  margin-top: 10px;
+}
+.Termos{
+  color: #FFF;
+  padding-right: 20px;
+}
+.Span{
+  color: #ebc006;
+}
+.campos{
+  color: #FFF;
+}
+.Botao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  padding-top: 40px;
+  
+}
+.Button {
+  background-color: #fff;
+  border: 1px solid #2e2d82;
+  border-radius: 15px;
+  color: #2e2d82;
+  font-size: 24px;
+  font-weight: 700;
+  height: 40px;
+  width: 50%;
+  min-width: 200px;
+  margin-bottom: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+Button:disabled,
+Button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Input{
+  padding-left: 0.75rem;
+  border-radius: 5px;
+  height: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SelectBox{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 30px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selectBox{
+  max-width: 110%;
 }
